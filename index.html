@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- SEO meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title>Виселица игра на Javascript</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/game.css" />
+  </head>
+  <body>
+    <!-- Gallows in JS -->
+
+    <main>
+      <div class="container mt-120">
+        <h2>Виселица на Javascript</h2>
+
+        <section>
+          <div class="container-box">
+            <div class="d-flex-center flex-column">
+              <h3 id="teaser-text" class="teaser-text"></h3>
+              <button class="btn-start" id="btn-start">СТАРТ!</button>
+            </div>
+
+            <!-- <div class="changes" id="change"></div> -->
+
+            <div class="welcome-title" id="welcome-title">
+              Попробуйте угадать слово выбранной игрой!
+            </div>
+            <div class="interface-words" id="interface-words">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="secret-word"
+                  class="input-default"
+                  maxlength="1"
+                  minlength="1"
+                />
+                <button type="button" class="btn-send" id="btn-send">
+                  Отправить!
+                </button>
+              </div>
+
+              <div class="secret-word-show" id="secret-word-show"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="./js/game.js" defer></script>
+  </body>
+</html>

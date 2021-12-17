@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #fffffe;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #1b2d45;
+  transition: all 0.3s ease-in-out;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover {
+  color: #00ebc7;
+  cursor: pointer;
+}
+
+.container-box {
+  margin: 0 auto;
+
+  border: 1px solid #000;
+
+  width: 100%;
+  max-width: 1360px;
+
+  padding: 15px;
+
+  margin-top: 20px;
+
+  height: 100%;
+  min-height: 200px;
+}
+
+.btn-start {
+  width: 100%;
+  max-width: 140px;
+
+  height: 40px;
+  color: #ffffff;
+
+  border: none;
+  outline: none;
+
+  background-color: #00ebc7;
+
+  border-radius: 10px;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+
+  font-weight: bold;
+}
+
+.btn-start:active {
+  transform: scale(0.6);
+}
+
+.welcome-title {
+  display: none;
+
+  color: #00214d;
+
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 14px;
+}
+
+.input-default {
+  width: 100%;
+  max-width: 300px;
+  height: 50px;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px #00214d solid;
+
+  outline: none;
+
+  letter-spacing: 4px;
+
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.interface-words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  display: none;
+}
+
+.secret-word-show {
+  margin-top: 14px;
+
+  font-size: 36px;
+  color: #3498db;
+
+  font-weight: 700;
+
+  margin-bottom: 20px;
+}
+
+.btn-send {
+  background-color: #e74c3c;
+
+  width: 100%;
+  max-width: 120px;
+
+  height: 50px;
+
+  border: none;
+  outline: none;
+  margin-left: 5px;
+
+  color: #fffffe;
+
+  font-weight: 500;
+
+  text-transform: uppercase;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in;
+}
+
+.form-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.btn-send:active {
+  transform: scale(0.6);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.teaser-text {
+  margin-bottom: 12px;
+}
